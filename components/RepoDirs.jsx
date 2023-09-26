@@ -19,8 +19,8 @@ const RepoDirs = async ({ name }) => {
   const dirs = contents.filter((content) => content.type === 'dir')
 
   return (
-    <div className="mt-2 ">
-      <h3 className="text-xl font-bold">Directories</h3>
+    <div className="mt-2">
+      <h3 className="text-xl font-bold ">Directories</h3>
       <ul>
         {dirs.map((dir) => (
           <li key={dir.path}>

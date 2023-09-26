@@ -6,7 +6,7 @@ const Header = () => {
   const { userId } = auth()
   return (
     <>
-      <nav className="bg-red-900 py-4 px-8">
+      <nav className="bg-[#57648C] py-4 px-8">
         <div className="flex items-center justify-between container">
           <div className="flex items-center font-bold">
             <Link href="/">
@@ -53,6 +53,13 @@ const Header = () => {
                   className="text-gray-300 hover:text-white mr-4"
                 >
                   Dashboard
+                </Link>
+
+                <Link
+                  href="/faq"
+                  className="text-gray-300 hover:text-white mr-4"
+                >
+                  Q&A
                 </Link>
 
                 <Link

@@ -16,7 +16,7 @@ const CourseSearch = ({ getSearchResults }) => {
         placeholder="Search Courses..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="bg-red-100 py-2 px-4 m-2 rounded-lg"
+        className="bg-[#E5E5E5] py-2 px-4 m-2 rounded-lg text-black"
       />
       <button
         type="submit"

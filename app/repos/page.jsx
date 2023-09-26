@@ -19,7 +19,7 @@ const ReposPage = async () => {
       </h2>
       <ul>
         {Array.from(repos).map((repo) => (
-          <li key={repo.id} className="bg-gray-100 m-4 p-4 rounded-md">
+          <li key={repo.id} className="bg-[#57648C] m-4 p-4 rounded-md">
             <Link href={`/repos/${repo.name}`}>
               <h3 className="text-xl font-bold">{repo.name}</h3>
               <p>{repo.description}</p>
